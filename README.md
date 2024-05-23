@@ -37,14 +37,3 @@ The Compute Resource Management System consists of various Micro-Services, such 
 
 The application expects an input file in JSON format, containing information about students, GPUs, CPUs, conferences, tick time, and duration. The output will be a text file with details about trained models, published results, GPU/CPU time usage, and processed data batches.
 
-## Testing
-
-Unit tests are provided for the MessageBus, GPU, CPU, and Future classes. You can run these tests using your IDE or Maven.
-
-## Submission
-
-The submission includes the project's source code and the required unit tests. Make sure to follow the submission guidelines provided in the assignment.
-
-## Contributing
-
-This project was an assignment in the Systems Programming course at Ben-Gurion University. Contributions are not accepted.

@@ -8,6 +8,7 @@ Compute Resource Management System: A system built on top of the Micro-Service f
 Features
 
 Micro-Service Framework:
+
 Message Bus for communication between Micro-Services
 Support for Events (sent to a single subscriber) and Broadcasts (sent to all subscribers)
 Round-robin event assignment to Micro-Services
@@ -15,6 +16,7 @@ Efficient synchronization and concurrency handling
 
 
 Compute Resource Management System:
+
 Students can create events to train and test deep learning models
 GPU and CPU Micro-Services handle model training and data processing
 Conference Micro-Services aggregate and publish successful model results
@@ -23,6 +25,7 @@ Timing and synchronization between Micro-Services and resources
 
 
 Implementation Details:
+
 The Micro-Service framework is implemented using Java 8 and follows an object-oriented design. It includes classes for the Message Bus, Micro-Services, Events, and Broadcasts. The framework supports efficient concurrency and synchronization techniques.
 The Compute Resource Management System consists of various Micro-Services, such as Student, GPU, CPU, and Conference services, along with supporting classes like Model, Data, and Cluster. It simulates the process of training deep learning models, processing data, and publishing successful results at conferences.
 
